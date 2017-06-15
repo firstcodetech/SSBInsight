@@ -3,33 +3,46 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/MyAccount"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="My Account" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/BasicInfo"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="SSB Basics" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/Screening"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Screening" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/Preperation"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Preperation" />
+        <item
+            android:id="@+id/Tips"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tips" />
+        <item
+            android:id="@+id/Updates"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Updates" />
+
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/Feedback"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Feedback" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/howto"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="FAQ[How To]" />
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
         </menu>
     </item>
 
